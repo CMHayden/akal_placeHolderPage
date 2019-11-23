@@ -1,0 +1,147 @@
+body {
+	line-height: 1.2;
+    background: #ffffff url('../img/banner01.jpg') no-repeat center top;
+    background-size: cover;
+	font-family: 'Open Sans', sans-serif;
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/**********************************
+***********************************/
+/**********************************
+***********************************/
+.content
+{
+	margin-top: 50px;
+	color: #fff;
+}
+.logo img
+{
+	display: inline-block;
+}
+.logo h2
+{
+	font-family: 'Montserrat', cursive;
+	font-size: 34px;
+    padding-top: 40px;
+}
+#countdown {
+    text-align: center;
+    margin:  110px 0px 69px;
+    min-height: 104px;
+}
+#countdown > div {
+    width: 100px;
+    height: 100px;
+    margin: 0px 1%;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 52px;
+    position: relative;
+    font-weight: 700;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+#countdown > div > span
+{
+	display: block;
+}
+
+.sub-p
+{
+	font-size: 14px;
+	padding: 5px 0px 15px;
+}
+
+.section-padding
+{
+	padding: 60px;
+}
+.about-title h2
+{
+	font-size: 24px;
+	font-family: 'Montserrat', cursive;
+	padding-bottom: 10px;
+}
+.img
+{
+	margin-top: 30px;
+}
+.img i
+{
+	font-size: 44px;
+}
+
+.abt-hd
+{
+	font-size: 20px;
+	font-weight: bold;
+	padding: 10px 0px 15px;
+}
+
+h2.subs-title  {
+    font-family: 'Montserrat', cursive;
+    font-size: 34px;
+    padding: 30px 0px 20px;
+}
+
+/**********************************
+Media Queries
+***********************************/
+@media (min-width: 501px) and (max-width: 901px) {
+    .contact-title{
+        padding: 15px;
+}
+.section-padding {
+        padding: 60px 30px;
+}
+.subscribe_form .subscribe {
+    width: 100px;
+    font-size: 15px;
+}
+.subcription-info {
+        width: 60%;
+        margin: 0 auto;
+}
+body{
+    overflow-x:hidden; 
+}
+}
+@media (min-width: 20px) and (max-width: 500px) {
+    .contact-title{
+        padding: 15px;
+}
+.section-padding {
+        padding: 60px 30px;
+}
+.subscribe_form .subscribe {
+    width: 100px;
+    font-size: 15px;
+}
+.subcription-info {
+        width: 80%;
+        margin: 0 auto;
+}
+}
+@media (min-width: 902px) {
+    *, html, body {
+        max-height: 100vh;
+        overflow: hidden;
+    }
+}
